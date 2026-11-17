@@ -14,3 +14,7 @@ config/conexao.php
 # Configurações locais de editores
 .vscode/
 .idea/
+# Arquivos de testes locais
+testar_conexao.php
+verificar_status.php
+verificar_status.php.txt
