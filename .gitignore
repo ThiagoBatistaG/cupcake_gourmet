@@ -1,0 +1,16 @@
+
+# Arquivos de configuração com credenciais
+config/conexao.php
+.env
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+
+# Backups
+*.bak
+*.old
+
+# Configurações locais de editores
+.vscode/
+.idea/

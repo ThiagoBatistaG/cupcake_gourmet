@@ -1,0 +1,169 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff9f7;
+    color: #49332f;
+}
+
+header {
+    background: #f6d8d5;
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #783f48;
+}
+
+nav a {
+    text-decoration: none;
+    color: #49332f;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.banner {
+    text-align: center;
+    padding: 65px 20px;
+    background: #fcebe7;
+}
+
+.banner h1 {
+    font-size: 36px;
+    color: #783f48;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 17px;
+}
+
+.catalogo {
+    padding: 45px 8%;
+}
+
+.catalogo h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #783f48;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.produto {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.produto h3 {
+    margin: 12px 0;
+}
+
+.produto p {
+    margin-bottom: 12px;
+    color: #725d58;
+}
+
+.preco {
+    color: #a34f61;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 11px 20px;
+    background: #a34f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: #783f48;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #f6d8d5;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+    header {
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 0 7px;
+    }
+
+    .banner h1 {
+        font-size: 27px;
+    }
+}
+
+.formulario {
+    max-width: 450px;
+    margin: 45px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.formulario h1 {
+    text-align: center;
+    color: #783f48;
+    margin-bottom: 25px;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+}
+
+.formulario button {
+    width: 100%;
+}
+
+.mensagem {
+    background: #fcebe7;
+    color: #783f48;
+    padding: 12px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
